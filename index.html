@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connexion</title>
+ 
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fontawesome.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="shortcut icon" href="images/logo-headth.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div class="login-container">
+        <h2 class="mb-0"><i class="fas fa-heartbeat me-2 text-warning"></i></i>Authentification</h2>
+        <p class="mb-4 text-warning text-center fs-6 administration">Ministère de la Santé - République du Mali</p>
+        
+        <div class="mb-3">
+            <!-- <label for="phone" class="form-label py-2">Code de Validation</label> -->
+            <div class="input-group py-2">
+                <span class="input-group-text"><i class="fas fa-code text-warning fa-1x"></i></span>
+                <input type="tel" class="form-control" id="phone" placeholder="Entrez votre code de validation">
+            </div>
+        </div>
+
+        <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="robotCheck">
+        <label class="form-check-label notRobot" for="robotCheck">Je ne suis pas un robot</label>
+        </div>
+
+        <a href="home.html"><button type="submit" class="btn btn-primary fs-5 text-white">Valider</button></a>
+    </div>
+
+  <!-- Custom JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

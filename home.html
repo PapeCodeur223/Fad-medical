@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carte d'Identité de Santé</title>
+ 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/logo-headth.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+
+    <div class="container d-flex justify-content-center align-items-center my-5">
+        <div class="card shadow-lg" style="max-width: 600px;">
+            <!-- Header -->
+            <div class="card-header bg-primary text-white text-center py-4 .animate-slide-down delay-1">
+                <h1 class="card-title mb-0"><i class="fas fa-heartbeat me-2"></i>Informations sur la Santé</h1>
+                <p class="mb-0">Ministère de la Santé - République du Mali</p>
+            </div>
+
+            <!-- Body -->
+            <div class="card-body">
+                <!--  Info patient -->
+                <div class="row d-flex align-items-center justify-content-center flex-row">
+                    <div class="col-md-5 mb-4">
+                        <div class="d-flex justify-content-center patient animate-slide-left delay-1">
+                            <img src="images/fad.png.webp" alt="Photo de l'identité" class="img-thumbnail rounded-circle w-75">
+                        </div>
+                    </div>
+                    <div class="col-md-7 ms-auto animate-slide-right delay-1">
+                        <h2 class="h4 mb-3 text-uppercase fw-semibold"><i class="fas fa-address-card me-2 text-primary"></i>Carte de<span class="text-warning"> Santé Virtuelle</span> </h2>
+                        <div class="personal">
+                            <p class="mb-1"><span class="badge text-bg-primary text-white"><i class="fas fa-id-card me-2"></i>Nom :</span> Spaceman</p>
+
+                            <p class="mb-1"><span class="badge text-bg-primary text-white"><i class="fas fa-user-circle me-2"></i>Prénom :</span> Spaceman </p>
+
+                            <p class="mb-1"><span class="badge text-bg-primary text-white"><i class="fas fa-tint me-2"></i>Groupe sanguin :</span> B+</p>
+
+                            <p class="mb-0"><span class="badge text-bg-primary text-white"><i class="fas fa-id-badge me-2"></i>ID Patient :</span> 123456789</p>
+
+                            <a href="#" class="btn btn-primary text-white mt-2"><i class="fas fa-folder"></i> Informations personnelles</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rapports Santé -->
+                <div class="mb-5 health">
+                    <h3 class="h5 mb-3 animate-slide-down delay-1"><i class="fas fa-file-medical text-secondary me-2"></i>Bilan Santé Récent</h3>
+                    <div class="accordion animate-slide-left delay-1" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button fw-semibold text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Rapport-2025-07-01-17:20:02
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Aucun problème majeur détecté. Tension et glycémie normales <a href="#" class="text-decoration-none btn btn-warning text-white my-2"><i class="fas fa-file"></i> Documents du rapport</a>.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Rapport-2025-02-10-09:10:02
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Légère anémie détectée. Suppléments de fer prescrits <a href="#" class="text-decoration-none btn btn-warning text-white my-2"><i class="fas fa-file"></i> Documents du rapport</a>.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Rapport-2025-03-19-12:20:02
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Examen médical complet effectué. Aucun problème détecté <a href="#" class="text-decoration-none btn btn-warning text-white my-2"><i class="fas fa-file"></i> Documents du rapport</a>.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Suivies -->
+                <div class="mb-4">
+                    <h3 class="h5 mb-3"><i class="fas fa-cogs text-secondary me-2 animate-slide-down delay-1"></i>Fonctionnalités Suivies</h3>
+                    <div class="row">
+                        <!-- Rendez-vous en ligne -->
+                        <div class="col-md-6 mb-3">
+                            <div class="card h-100 animate-slide-left delay-1">
+                                <div class="card-body">
+                                    <h4 class="h6"><i class="fas fa-calendar-check text-primary me-2"></i>Rendez-vous</h4>
+                                    <p class="mb-0">Prenez rendez-vous en ligne facilement.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card h-100 animate-slide-right delay-1">
+                                <div class="card-body">
+                                <h4 class="h6"><i class="fas fa-pills text-primary me-2"></i>Voir Phamarcie</h4>
+                                <p class="mb-0">Suivez vos prescriptions médicales.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Historique médical -->
+                        <div class="col-md-6 mb-3">
+                            <div class="card h-100 animate-slide-left delay-1">
+                                <div class="card-body">
+                                    <h4 class="h6"><i class="fas fa-file-medical text-primary me-2"></i>Signaler une maladie</h4>
+                                    <p class="mb-0">Accédez à votre historique complet des consultations et bilans de santé.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Alertes de vaccination -->
+                        <div class="col-md-6 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body animate-slide-right delay-1">
+                                    <h4 class="h6"><i class="fas fa-bell text-primary me-2"></i>Info Médical</h4>
+                                    <p class="mb-0">Recevez des rappels pour vos vaccins et rappels de doses.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    </div>
+                </div>
+
+                <!-- Contact d'urgence Emergency -->
+                <div class="mb-1">
+                    <div class="card emergency">
+                        <h3 class="h5 mb-2"><i class="fas fa-phone-alt text-secondary me-2 animate-slide-down delay-1"></i>Contacts d'urgence</h3>
+                        <div class="card-body animate-slide-up delay-1">
+                            <ul class="list-unstyled mb-0 ">
+                                <li class="mb-2 border-bottom py-2 d-flex justify-content-between align-items-end">
+                                    <strong><i class="fas fa-user-circle text-primary me-2"></i>Dr. Mariam Niagaté</strong>&nbsp; 
+                                    <p class="mb-0 badge text-bg-primary text-white"><i class="fas fa-phone  me-2"></i>223 65 43 21 09</p>
+                                </li>
+                                <li class="mb-2 border-bottom py-2 d-flex justify-content-between align-items-end">
+                                    <strong><i class="fas fa-user-circle text-primary me-2"></i>Dr. Adama Ag Traoré</strong>&nbsp;
+                                    <p class="mb-0 badge text-bg-primary text-white"><i class="fas fa-phone me-2"></i>223 70 12 34 56</p>
+                                </li>
+                                <li class="mb-2 border-bottom py-2 d-flex justify-content-between align-items-end">
+                                    <strong><i class="fas fa-user-circle text-primary me-2"></i>Dr. Ousmane Tapily</strong>&nbsp;
+                                    <p class="mb-0 badge text-bg-primary text-white"><i class="fas fa-phone me-2"></i>223 70 12 34 56</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-4 text-center py-2 fw-semibold text-primary animate-slide-up delay-1">
+                    <i class="fas fa-ambulance"></i> En cas de doute ou de situation critique, ne tardez pas à appeler les numéros d'urgence ou votre médecin. Votre santé est précieuse, et chaque minute compte !
+                </div>
+
+
+                <!-- Fin card -->
+            </div>
+
+            <!-- Footer -->
+            <div class="card-footer text-center py-3 bg-light animate-slide-up delay-1">
+                <p class="mb-0"><i class="fas fa-copyright me-2"></i>2025 - Ministère de la Santé, République du Mali</p>
+            </div>
+        </div>
+    </div>
+
+  
+  <!-- Custom JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/animation.js"></script>
+
+
+</body>
+</html>
